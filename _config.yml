@@ -1,5 +1,9 @@
 name: yaron
-markdown: kramdown
+
+markdown:         kramdown
+highlighter:      rouge
+
+kramdown:
+  auto_ids: true
+  
 theme: jekyll-theme-dinky
-redcarpet:
-    extensions: ["tables", "fenced_code_blocks", "autolink", "strikethrough"]
