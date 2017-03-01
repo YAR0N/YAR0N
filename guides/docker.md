@@ -17,5 +17,11 @@ Commands:
    docker stats --format "table {{.Name}} \t {{.MemUsage}}"
    ```
    {% endraw  %}
+   
+Compose:
+--------
 
-
+   Changing running service:
+   ```bash
+   docker-compose up -d -no-deps <service-name>
+   ```
