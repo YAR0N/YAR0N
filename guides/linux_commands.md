@@ -8,7 +8,7 @@ CSV files manipulation
    
    Delete empty lines: `sed -i '/^[ \t\r]*$/d' <file_path>`
    
-   Number of rows: `wc -l`
+   Number of rows: `wc -l <file_path>`
    
    
 Launching commands in background
