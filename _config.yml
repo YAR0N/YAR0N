@@ -5,6 +5,7 @@ markdown: kramdown
 highlighter: rouge
 
 kramdown:
-  auto_ids: true
+  input: GFM
+  syntax_highlighter: rouge
   
 theme: jekyll-theme-dinky
