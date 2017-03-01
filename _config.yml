@@ -1,3 +1,10 @@
 name: yaron
+title: yaron
 
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  auto_ids: true
+  
 theme: jekyll-theme-dinky
