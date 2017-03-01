@@ -15,8 +15,8 @@ Launching commands in background
 --------------------------------
 
    Launching in background until exit:
-   ```
-   <comand> > /dev/null 2>&1 &
+   ```bash
+   <command> > /dev/null 2>&1 &
    ```
    
    View commands: `jobs`
@@ -24,6 +24,6 @@ Launching commands in background
    Kill commands: `kill %n`
    
    Launching in background not terminating on exit:
-   ```
-   nohup <comand> > /dev/null 2>&1 &
+   ```bash
+   nohup <command> > /dev/null 2>&1 &
    ```
