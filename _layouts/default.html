@@ -2,15 +2,29 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
-		  
+		  	<style>
+				html, body {
+				    height: 100%;
+				}
+				.container {
+				    min-height: 100%;
+				    height: auto !important;
+				    height: 100%;
+				    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+				}
+				.footer, .push {
+				    height: 142px; /* .push must be the same height as .footer */
+				}
+			</style>
 		</head>
 		<body>
 			
+			<div class="container">
+				{{ content }}
+				<div class="push"></div>
+			</div>
 			
-			{{ content }}
-			
-			
-			<footer>
+			<footer class="footer">
 	    		
 	        		<a href="mailto:yaroslav@shkarupa.name">yaroslav@shkarupa.name</a>
 				
