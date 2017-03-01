@@ -7,9 +7,9 @@ Useful docker stuff
 Commands:
 ---------
 
-   Delete all containers `docker rm $(docker ps -a -q)`
+   Delete all containers: `docker rm $(docker ps -a -q)`
    
-   Delete all images `docker rmi $(docker images -q)`
+   Delete all images: `docker rmi $(docker images -q)`
    
    Show running container stats in pretty format:
    ```
