@@ -1,7 +1,8 @@
 name: yaron
+title: yaron
 
-markdown:         kramdown
-highlighter:      rouge
+markdown: kramdown
+highlighter: rouge
 
 kramdown:
   auto_ids: true
