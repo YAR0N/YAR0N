@@ -12,9 +12,10 @@ Commands:
    Delete all images: `docker rmi $(docker images -q)`
    
    Show running container stats in pretty format:
+   {% raw  %} 
    ```bash
    docker stats --format "table {{.Name}} \t {{.MemUsage}}"
    ```
-   
+   {% endraw  %}
 
 
