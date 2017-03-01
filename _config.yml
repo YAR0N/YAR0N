@@ -1,5 +1,5 @@
 name: yaron
-markdown: redcarpet
+markdown: kramdown
 theme: jekyll-theme-dinky
 redcarpet:
     extensions: ["tables", "fenced_code_blocks", "autolink", "strikethrough"]
