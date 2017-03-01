@@ -13,7 +13,7 @@ Commands:
    
    Show running container stats in pretty format:
    ```bash
-   docker stats --format "table \{\{.Name\}\} \t \{\{.MemUsage\}\}"
+   docker stats --format "table {{.Name}} \t {{.MemUsage}}"
    ```
 
 
