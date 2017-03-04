@@ -5,7 +5,7 @@ layout: default
 
 <h1>Guides on different subjects:</h1>
 <ul>
-    {% for page in site.pages %}
+    {% for page in site.static_pages %}
         <li><h3><a title="{{ page.title }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3></li>
     {% endfor %}
 </ul>
