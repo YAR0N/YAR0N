@@ -1,0 +1,8 @@
+
+<h2>dir1 specific header</h2>
+<h1>Guides on different subjects:</h1>
+<ul>
+    {% for page in site.pages %}
+        <li><h3><a title="{{ page.title }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3></li>
+    {% endfor %}
+</ul>

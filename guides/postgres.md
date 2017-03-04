@@ -1,5 +1,5 @@
 ---
-title: postgres
+title: Postgres
 ---
 
 Postgres guide
