@@ -1,6 +1,14 @@
 Linux commands guide
 ====================
 
+Useful commands
+---------------
+
+   Show size in Megabytes: `ls -alF --block-size=M <file_path>`
+   
+   Show volume of hard drive partitions: ` df --block-size=G` 
+
+
 CSV files manipulation
 ----------------------
 
@@ -27,3 +35,7 @@ Launching commands in background
    ```bash
    nohup <command> > /dev/null 2>&1 &
    ```
+   
+<!--`sed` usage-->
+<!--------------->
+
