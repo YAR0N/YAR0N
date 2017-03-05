@@ -1,0 +1,13 @@
+---
+title: Guide content
+layout: default
+---
+
+<h1>Guides on different subjects:</h1>
+<ul>
+    {% for page in site.guides %}
+        {% if page.title != 'Guide content' %}
+            <li><h3><a title="{{ page.title }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3></li>
+        {% endif %}
+    {% endfor %}
+</ul>

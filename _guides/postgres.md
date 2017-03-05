@@ -1,5 +1,6 @@
 ---
 title: Postgres
+layout: default
 ---
 
 Postgres guide

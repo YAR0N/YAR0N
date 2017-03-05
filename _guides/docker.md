@@ -1,5 +1,6 @@
 ---
 title: Docker
+layout: default
 ---
 
 Docker guide

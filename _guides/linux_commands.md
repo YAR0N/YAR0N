@@ -1,5 +1,6 @@
 ---
 title: Linux commands
+layout: default
 ---
 
 Linux commands guide
