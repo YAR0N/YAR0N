@@ -12,6 +12,8 @@ Useful commands
    Show size in Megabytes: `ls -alF --block-size=M <file_path>`
    
    Show volume of hard drive partitions: `df --block-size=G` 
+   
+   Watch additions to the file (useful for log monitoring): `tail -f <file_path>`
 
 
 CSV files manipulation
